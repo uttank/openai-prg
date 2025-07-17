@@ -1,0 +1,6 @@
+import os
+from dotenv import load_dotenv
+# This script loads environment variables from a .env file
+load_dotenv()
+# os.getenv() 함수를 이용해 API 키를 변수에 저장합니다.
+openai_api_key = os.getenv("OPENAI_API_KEY")
